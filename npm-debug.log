@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files (x86)\\Node.js\\node.exe',
+1 verbose cli   'D:\\Program Files (x86)\\Node.js\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'test' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 verbose run-script [ 'pretest', 'test', 'posttest' ]
+5 info lifecycle Vuegogogo@1.0.0~pretest: Vuegogogo@1.0.0
+6 silly lifecycle Vuegogogo@1.0.0~pretest: no script for pretest, continuing
+7 info lifecycle Vuegogogo@1.0.0~test: Vuegogogo@1.0.0
+8 verbose lifecycle Vuegogogo@1.0.0~test: unsafe-perm in lifecycle true
+9 verbose lifecycle Vuegogogo@1.0.0~test: PATH: D:\Program Files (x86)\Node.js\node_modules\npm\bin\node-gyp-bin;D:\webjs\new\Vue\Kchengogo\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Program Files (x86)\Git\cmd;D:\Program Files (x86)\Node.js\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\bing\AppData\Local\Microsoft\WindowsApps;C:\Users\bing\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_151\bin;
+10 verbose lifecycle Vuegogogo@1.0.0~test: CWD: D:\webjs\new\Vue\Kchengogo
+11 silly lifecycle Vuegogogo@1.0.0~test: Args: [ '/d /s /c', 'webpack-dev-server --inline --hot --open' ]
+12 silly lifecycle Vuegogogo@1.0.0~test: Returned: code: 3221225786  signal: null
+13 info lifecycle Vuegogogo@1.0.0~test: Failed to exec test script
+14 error Test failed.  See above for more details.
+15 verbose exit [ 1, true ]
+16 verbose stack Error: kill ENOSYS
+16 verbose stack     at exports._errnoException (util.js:1018:11)
+16 verbose stack     at process.kill (internal/process.js:190:13)
+16 verbose stack     at process.listener (D:\Program Files (x86)\Node.js\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+16 verbose stack     at emitNone (events.js:91:20)
+16 verbose stack     at process.emit (events.js:185:7)
+16 verbose stack     at processEmit (D:\Program Files (x86)\Node.js\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+16 verbose stack     at processEmit (D:\Program Files (x86)\Node.js\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+16 verbose stack     at Signal.wrap.onsignal (internal/process.js:217:44)
+17 verbose cwd D:\webjs\new\Vue\Kchengogo
+18 error Windows_NT 10.0.16299
+19 error argv "D:\\Program Files (x86)\\Node.js\\node.exe" "D:\\Program Files (x86)\\Node.js\\node_modules\\npm\\bin\\npm-cli.js" "test"
+20 error node v6.11.0
+21 error npm  v3.10.10
+22 error code ENOSYS
+23 error errno ENOSYS
+24 error syscall kill
+25 error kill ENOSYS
+26 error If you need help, you may report this error at:
+26 error     <https://github.com/npm/npm/issues>
+27 verbose exit [ 1, true ]

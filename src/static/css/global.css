@@ -1,0 +1,15 @@
+body {
+	background-color: white;
+}
+
+.tmpl .mui-bar {
+	margin-top: 40px;
+}
+.tmpl {
+	margin-top: 87px;
+	margin-bottom: 50px;
+}
+
+.news-content img {
+	width: 100;
+}
